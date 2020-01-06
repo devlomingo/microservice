@@ -10,6 +10,6 @@ WORKDIR /code/server
 #Install all the node dependencies
 RUN npm install
 
-
+ENV PORT 8080
 # Run application
 CMD [ "node", "server.js"]
