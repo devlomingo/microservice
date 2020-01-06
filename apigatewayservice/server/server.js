@@ -17,6 +17,6 @@ app.get("/healthcheck", (req, res) => {
 
 app.use(router)
 
-console.log("Simple API Gateway run on localhost:8080")
+console.log("Simple API Gateway run on localhost:8000")
 
-app.listen(8080);
+app.listen(8000);
