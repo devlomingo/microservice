@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: library/frontend
+  repository: gcr.io/cloud-solutions-images/frontend-web
   tag: latest
   pullPolicy: Never
 
